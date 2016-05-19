@@ -15,7 +15,7 @@ require __DIR__ . '/../bootstrap.php';
 require __DIR__ . '/Route.php';
 
 
-$route = new Route('<param>', [
+$route = @new Route('<param>', [ // @ SECURED is deprecated
 	'presenter' => 'Presenter',
 ]);
 
